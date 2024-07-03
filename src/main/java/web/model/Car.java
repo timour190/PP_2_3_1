@@ -1,4 +1,4 @@
-package model;
+package web.model;
 
 public class Car {
 
@@ -8,7 +8,7 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "carNumber=" + carNumber +
-                ", model='" + model + '\'' +
+                ", web.model='" + model + '\'' +
                 ", color='" + color + '\'' +
                 '}';
     }
@@ -21,7 +21,9 @@ public class Car {
         this.model = model;
         this.color = color;
     }
-    public Car() {}
+
+    public Car() {
+    }
 
 
     public int getCarNumber() {
